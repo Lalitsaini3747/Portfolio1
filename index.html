@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalit Saini</title>
+    <!-- Link to css -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Link to js -->
+    <link rel="stylesheet" href="Logic.js">
+    <!-- Link to boxicon -->
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <a href="#Home" class="logo">
+            <h1>LALIT'</h1>
+            <h1><span>S</span><span>A</span><span>I</span><span>N</span><span>I</span></h1>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="Navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <button onclick="myFunction()"><div class="bx bx-moon" id="darkmode"></div></button>
+        </ul>
+    </header>
+
+    <!-- Home Section -->
+    <section class="Home" id="Home">
+        <div class="social">
+            <a href="#"><i id="github" class="bx bxl-github"></i></a>
+            <a href="#"><i id="facebook" class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/lalitsaini3747/"><i id="instagram" class="bx bxl-instagram"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="lalit.png" alt="lalit">
+        </div>
+        <div class="home-text">
+            <span>Hello I'm</span>
+            <h1><Span>Lalit</Span> Saini</h1>
+            <h2>Full-Stack Web Developer</h2>
+            <p>who loves to create websites for people. I think that people should look at the bigger picture when they are building something. I love to work in groups where everyone can voice their opinions and ideas.</p>
+            <a href="" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section class="About" id="About" >
+        <div class="heading">
+            <h2>About me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="lalit2.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>The resume summary should explain why you're the best fit for the job. For example, "Creative web developer with a track record of developing complex web-based applications using best software practices".</p>
+                <div class="informaion">
+                    <div class="info-box">
+                        <i class="bx bxs-user"></i>
+                        <a href="#"><span>Lalit saini</span></a>
+                    </div>
+                    <div class="info-box">
+                        <i class="bx bxs-phone"></i>
+                        <a href="#"><span>+91 9887374746</span></a>
+                    </div>
+                    <div class="info-box">
+                        <i class="bx bxl-gmail"></i>
+                        <a href="#"><span>Sainilalit2751@gmail.com</span></a>
+                    </div>
+                </div>
+                <a href="" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skiils section -->
+    <section class="skills" id="Skills">
+        <div class="heading">
+            <h2>Skiils</h2>
+            <span>My Siiks</span>
+        </div>
+        <div class="skiils-containor">
+            <div class="bars">
+                <div class="bar-box">
+                    <h3>HTML</h3>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bar-box">
+                    <h3>Css</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bar-box">
+                    <h3>javascript</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bar-box">
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skiils-img">
+                <img src="gif.png" alt="" style="height: 400px; width: 400px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section class="service" id="Service">
+        <div class="heading">
+            <h2>Service</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="service-containor">
+            <div class="service-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bx-brush"></i>
+                <h3>Ui/Ux Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxl-android'></i>
+                <h3>App Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="Contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contact With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="##">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Massage Here...."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="##"><i class="bx bxl-facebook"></i></a>
+            <a href="##"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/lalitsaini3747"><i class="bx bxl-instagram"></i></a>
+            <a href="##"><i class="bx bxl-youtube"></i></a>
+        </div>
+    </footer>
+
+    <div class="copyrights">
+        LALIT SAINI   |   All Rights Resserved
+    </div>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("darkmode");
+        }
+    </script>
+</body>
+</html>
